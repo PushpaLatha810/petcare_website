@@ -1,0 +1,405 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    display: flex;
+    
+}
+.nav {  
+    padding-top:30px ;
+    margin-left: 70px; 
+}
+.nav a{
+   margin-left: 80px;
+    font-size: x-large;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+
+}
+.cust{
+    padding-top: 1px;
+}
+.nav sup{
+    margin-left: 30px;
+    padding-right: 20px;
+
+}
+.nav sup a{
+    font-size: medium;
+    padding: 10px;
+    background-color: rgb(212, 181, 0);
+    border-radius: 10px;
+
+}
+.nav a:hover{
+    text-shadow: 10px 10px 10px rgb(15, 13, 14);
+    font-weight: bold;
+}
+.home{
+    background-image: url(https://media.licdn.com/dms/image/D4D12AQEUNZpWGRV-wg/article-cover_image-shrink_720_1280/0/1695201543163?e=2147483647&v=beta&t=CqxZW4OPIKcmbNhAp2o648TvV1NMCwQuyCyL7HoebDg);
+    background-size: cover;
+
+}
+.main img{
+    background-color: white;
+    border-radius: 100%;
+}
+#id12{
+    text-align: center;
+    margin: 50px 250px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    opacity: 0.6;
+
+}
+#id12 p{
+    font-size: x-large;
+}
+
+.services{
+    background-image: url(/project/images/ushh.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bdy{
+    font-family: poppins;
+    padding-top: 1%;
+    padding-top: 1%;  
+}
+.bdy{
+    flex: 0 0 auto;
+    margin-right: 60px;
+    width: 250px;
+}
+.container img{
+    width:30%;
+    height:50%;
+    padding-top: 140px;
+}
+.wrapper{
+    width: 900px;
+    margin: 5% auto;
+    padding-right: none; 
+}
+.container{
+display: flex;
+overflow-x: auto;
+}
+.Single-price{
+    width: 33%;
+    background: #0e1011;
+    margin-top: 2%;
+    box-shadow: 1px 1px 20px rgba(0,0,0,0.5);
+    text-align: center;
+    transition: 0.9s;
+    border-radius: 50px;
+
+}
+.price{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #fdf6f7;
+    margin: 10% auto 0 auto;
+    text-align: center;
+}
+.deals{
+    margin-top: 10%;
+}
+.Single-price{
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 3;
+    text-transform: uppercase;
+}
+.price h2{
+    font-size: 38px;
+    color: #e40f0f;
+}
+.deals h3{
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    color: #fff;
+    line-height: 1;
+}
+.Single-price:hover{
+    background: #e28adb;
+    color: #fff;
+    box-shadow: 0 0 15px rgba(0,0,0,1);
+    transform: scale(1.1);
+    z-index: 1;
+    border-radius: 25px;
+
+}
+.Single-price:hover{
+    border-color: #fff;
+}
+.Single-price a{
+    text-decoration: none;
+    background: #da77c1;
+    color: #fff;
+    padding: 10px 60px;
+    display: inline-block;
+    margin: 10% auto;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.Single-price:hover a{
+    background: #262626;
+    color: #fff;
+}
+.glry{
+    
+background-image: url(/project/images/grlybg.jpg);
+}
+.container2 img{
+height: 30%;
+width: 30%;
+}
+.para h1{
+    text-align: center;
+    color: #e40f0f;
+    font-family: 'baloo Thambi',cursive;
+    font-size: srew;
+    outline: none;
+    animation: animate 5s linear infinite;
+}
+@keyframes animate {
+    0%{
+        color: #0e3742;
+    }
+    100%{
+        color: #fff;
+       text-shadow: 0 0 10px #0f96e4,
+        0 0 20px #0f96e4,
+        0 0 30px #0f96e4,
+        0 0 40px #0f96e4,
+        0 0 50px #0f96e4;
+    }
+}
+.para h1:hover{
+    color: #da77c1;
+    font-weight: bold;
+
+}
+.para h2{
+    text-align: center;
+    color: #e40f84;
+    font-family: 'baloo Thambi',cursive;
+    font-size: srew;
+}
+.para p{
+    text-align: center;
+    color: #df8282;
+    font-family: 'baloo Thambi',cursive;
+    font-size: srew;
+}
+.para h2:hover{
+    color: #ce1a41;
+    font-weight: bold;
+}
+.para p:hover{
+    color: #7779da;
+    font-weight: bold;
+}
+.abt{
+    background-image: url(/project/images/abt.webp);
+    background-size: cover;
+}
+.sec{
+    color: purple;
+    font-family: 'baloo Thambi',cursive;
+    padding-left: 10px;
+
+}
+.sec h1:hover{
+    color: #f10b0b;
+    font-weight: bold;
+}
+
+
+.testimonial-text {
+	background: #0055a40f;
+	padding: 20px;
+	line-height: 35px;
+	border-radius: 10px;
+	font-size: 18px;
+	border: 1px solid #e66cc1;
+}
+
+.testimonial-detail {
+	float: left;
+	margin-top: 10px;
+}
+
+.testimonial-img {
+	float: left;
+}
+
+.testimonial-name {
+	margin-left: 10px;
+	float: left;
+}
+
+.testimonial-name h5 {
+	font-size: 18px;
+	margin-top:8px;
+}
+.testimonial{
+    width: 600px;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.footer-list {
+	list-style: none;
+	line-height: 35px;
+	padding-top: 20px;
+}
+
+.footer-background {
+	background-color: #222328;
+	padding-top: 60px;
+	padding-bottom: 80px;
+	color: rgba(255, 255, 255, .86);
+}
+
+.get-in-touch {
+	list-style: none;
+	line-height: 15px;
+	padding-top: 20px
+}
+
+.get-in-touch img {
+	width: 30px;
+	height: 30px;
+	margin-left: 10px;
+	border-radius: 0px;
+	float: left;
+	padding-top: 20px
+}
+
+.get-in-touch i {
+	float: left;
+	color: #eb372a;
+	font-size: 16px;
+	line-height: 15px;
+}
+
+.get-in-touch p {
+	padding-left: 30px;
+	color: rgba(8, 6, 6, 0.86);
+	margin-top: 20px
+}
+.testimonial{
+    margin-bottom: 30px;
+}
+#abt_main{
+    margin-left: 40px;
+}
+
+
+
+.logo{
+    background-image: url(/project/images/pp7.jpeg);
+    background-size: cover;
+}
+.login h1{
+    color: hsl(315, 57%, 66%);
+    text-align: center;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.login h1:hover{
+    color: red;
+}
+.login label:hover{
+    transition: all 0.8s;
+    color:rgb(252, 144, 3);
+}
+.login{
+    margin: 150px 350px;
+    text-align: center !important;
+    padding-left: 2%;
+}
+
+.login label{
+    font-size:x-large;
+    padding-left: 5%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .login a{
+        font-size:x-large;
+background-color: #080c0e;
+
+        color: #079afc;
+        text-decoration: none;    
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .login a:hover{
+            transition: all 0.8s;
+    color: rgb(39, 232, 158);
+        }
+
+
+        .regist{
+            background-image: url(/project/images/lgimg.jpg);
+            background-repeat: no-repeat;
+            background-size: 115%;
+        }
+        .regist h1{
+            color: #0c0b0c;
+        padding-top: 5%;
+        padding-left: 25%;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        
+        }
+        .regist label{
+            font-size:x-large;
+            padding-left: 25%;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+            .from a{
+                font-size:x-large;
+        
+                color: #e48f0f;
+                text-decoration: none;    
+                padding-left: 29%;
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                }
+                .from h1:hover{
+                    transition: all 0.8s;
+                    color: rgb(243, 9, 126);
+
+                }
+                .from a:hover{
+                    transition: all 0.8s;
+                    color: rgb(230, 4, 4);
+
+                }
+                .regist label:hover{
+                    transition: all 0.8s;
+                    color:rgb(252, 3, 3);
+                }
+                .from a{
+                    text-align: center ;
+                    margin-left: 28%;
+                    font-size:x-large;
+            background-color: #080c0e;
+            padding-left: 3px;
+                    color: #079afc;
+                    text-decoration: none;    
+                    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                    }
+                    .from{
+                        background-color: #86c8e7;
+                        opacity: 0.7;
+                        margin-left: 20%;      
+                        margin-right: 45%;                  
+                        border-color: red;
+                        border-radius: 12%;
+                    }
