@@ -60,7 +60,7 @@
 }
 
 .services{
-    background-image: url(/project/images/ushh.jpg);
+    background-image: url(images/ushh.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -154,7 +154,7 @@ overflow-x: auto;
 }
 .glry{
     
-background-image: url(/project/images/grlybg.jpg);
+background-image: url(images/grlybg.jpg);
 }
 .container2 img{
 height: 30%;
@@ -207,7 +207,7 @@ width: 30%;
     font-weight: bold;
 }
 .abt{
-    background-image: url(/project/images/abt.webp);
+    background-image: url(images/abt.webp);
     background-size: cover;
 }
 .sec{
@@ -305,7 +305,7 @@ width: 30%;
 
 
 .logo{
-    background-image: url(/project/images/pp7.jpeg);
+    background-image: url(images/pp7.jpeg);
     background-size: cover;
 }
 .login h1{
@@ -347,7 +347,7 @@ background-color: #080c0e;
 
 
         .regist{
-            background-image: url(/project/images/lgimg.jpg);
+            background-image: url(images/lgimg.jpg);
             background-repeat: no-repeat;
             background-size: 115%;
         }
